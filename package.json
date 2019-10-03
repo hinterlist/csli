@@ -1,0 +1,41 @@
+{
+    "name": "@credits/credits-cli",
+    "version": "1.0.0",
+    "main": "./dist/cli.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.3",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-transform-runtime": "^7.2.0",
+        "@babel/polyfill": "^7.2.5",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-typescript": "^7.3.3",
+        "@types/bluebird": "^3.5.25",
+        "@types/jest": "^24.0.6",
+        "@types/lodash": "^4.14.121",
+        "@types/ncp": "^2.0.1",
+        "@types/node": "^11.9.4",
+        "gulp": "^4.0.2",
+        "gulp-typescript": "^5.0.1",
+        "jest": "^24.1.0",
+        "ts-jest": "^24.1.0",
+        "ts-node": "^8.4.1",
+        "typescript": "^3.6.3"
+    },
+    "scripts": {
+        "build": "gulp",
+        "watch": "gulp watch",
+        "start": "node ./dist/cli.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.3.1",
+        "bluebird": "^3.5.3",
+        "chalk": "^2.4.2",
+        "commander": "^2.19.0",
+        "lodash": "^4.17.11",
+        "ncp": "^2.0.0",
+        "thrift": "^0.12.0"
+    }
+}

@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+
+# Remove mac file 
+.DS_Store
+
+# TypeScript compile output
+dist/
+
+# Local environment variables for development
+.env
+
+# Temporary files
+tmp/
